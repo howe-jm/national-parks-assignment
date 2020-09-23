@@ -1,7 +1,7 @@
 // Listen for form submit
 function formSubmitListener() {
   let selectedStates = [];
-  let limit = 50;
+  let limit = 10;
   $('#form-container').on('submit', function (event) {
     event.preventDefault();
     selectedStates = $('input:checkbox:checked')
@@ -10,7 +10,6 @@ function formSubmitListener() {
       })
       .get();
     limit = $('#number').val();
-    console.log(limit);
     queryFormatter(selectedStates, limit);
   });
 }
