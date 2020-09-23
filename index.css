@@ -1,0 +1,59 @@
+.hidden {
+  display: none;
+}
+
+#number {
+  width: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  width: 900px;
+  border: 1px solid black;
+  min-height: 200px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.results-title {
+  font-size: 30px;
+}
+
+form {
+  margin: 10px 0;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 600px;
+  justify-content: center;
+}
+
+.checkbox {
+  border: 1px solid black;
+  margin: 2px 2px;
+  padding: 0px 4px;
+}
+
+#results-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 800px;
+  justify-content: center;
+}
+
+.results-box {
+  width: 300px;
+  min-height: 250px;
+  border: 1px solid black;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
